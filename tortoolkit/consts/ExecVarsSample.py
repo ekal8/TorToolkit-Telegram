@@ -3,19 +3,19 @@ try:
 except:
     class ExecVars:
         # Set true if its VPS
-        IS_VPS = False
+        IS_VPS = True
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "4bc5e8fea072c35618ebbcbb43013280"
+        API_ID = 2775715
+        BOT_TOKEN = "1900646551:AAHhu134owg-lh9UFGcRtLTZ3dTa8v1LAR0"
+        BASE_URL_OF_BOT = "http://185.82.217.129"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [448772274,-1001200187883]
+        OWNER_ID = 448772274
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
@@ -56,7 +56,7 @@ except:
 
         # Will be enabled once its set
         # For vps change it to True if config loaded
-        RCLONE_ENABLED = False
+        RCLONE_ENABLED = True
 
         # If the user fails to select whether to use rclone or telegram to upload this will be the deafult.
         DEFAULT_TIMEOUT = "leech"
@@ -75,13 +75,13 @@ except:
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
-        BOT_CMD_POSTFIX = "" 
+        BOT_CMD_POSTFIX = "@ttk2kalbot" 
 
         # Time out for the status Delete.
         STATUS_DEL_TOUT = 20
 
         # Allow the user settings to be accessed in private
-        USETTINGS_IN_PRIVATE = False
+        USETTINGS_IN_PRIVATE = True
 
         # Torrent max time to collect metadata in seconds
         TOR_MAX_TOUT = 180
